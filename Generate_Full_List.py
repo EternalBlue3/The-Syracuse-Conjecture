@@ -3,16 +3,16 @@ def isEven(n):
 
 full_list = []
 
-h = 10
+running = 1
 v = 0
 for i in range(int(input("How many iterations of the Syracuse do you want to generate: "))):
     iterations = 0
     i += 1
     v += 1
-    h = 10
-    while h == 10:
+    running = 1
+    while running == 1:
         if i == 1:
-            h = 0
+            running = 0
         iterations += 1
         if isEven(i):
             i = i // 2
