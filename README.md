@@ -9,3 +9,5 @@ I picked 20 as the first number. I divided it by 2 because it is even. 10 is eve
 This program works by trying to try every number in existence and seeing if a number breaks the pattern of ending up in a 4, 2, 1 loop.
 
 If you want to learn more about this problem click here: https://www.youtube.com/watch?v=094y1Z2wpJg
+
+I attached a file with what I have personally generated ("Syracuse_Conjecture_file.txt"). I generated further but the file size was too big to upload to github.
