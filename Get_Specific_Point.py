@@ -1,7 +1,7 @@
 def isEven(n):
     return (n % 2 == 0)
 
-h = int(input("Enter a number to start the syracuse conjecture with: "))
+h = int(input("Enter a number to start the Syracuse Conjecture with: "))
 iterations = 0
 while h != 4:
     iterations += 1
