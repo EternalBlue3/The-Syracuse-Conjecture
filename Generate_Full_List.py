@@ -22,6 +22,6 @@ for i in range(int(input("How many iterations of the Syracuse do you want to gen
     a = ''.join(a)
     full_list.append(a)
 complete = ''.join(full_list)
-fh = open("Syracuse Conjecture file.txt","w")
+fh = open("Syracuse_Conjecture_file.txt","w")
 fh.write(complete)
 fh.close()
