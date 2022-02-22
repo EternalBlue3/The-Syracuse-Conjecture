@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Collatz Conjecture Webpage</h2>
+
+<input type="number" id="collatzNumber" value="0">
+<button type="button" id="myBtn" onclick="generate_collatz()">Generate Sequence</button>
+
+<p id="collatz_output"></p>
+
+<script>
+function isEven(n) {
+    return (n % 2 == 0);
+};
+
+function generate_collatz() {
+    var n = parseInt(document.getElementById("collatzNumber").value);
+    var output_collatz = [];
+    while (n != 1)
+    {
+    output_collatz.push(" " + n)
+    if ((n & 1) != 0) 
+       n = 3*n + 1;
+    else
+       n = parseInt(n/2, 10);
+    };
+    document.getElementById("collatz_output").innerHTML = "Generated Collatz Sequence: " + output_collatz + ", 1";};
+</script>
+
+</body>
+</html>
