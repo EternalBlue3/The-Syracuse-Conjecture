@@ -5,7 +5,7 @@ full_list = []
 
 h = 10
 v = 0
-for i in range(int(input("How many iterations of the Collutz"))):
+for i in range(int(input("How many iterations of the Syracuse do you want to generate: "))):
     iterations = 0
     i += 1
     v += 1
